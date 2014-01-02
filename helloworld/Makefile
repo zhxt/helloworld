@@ -1,6 +1,6 @@
 CFLAGS := -g -Wall
 TARGET := hello
-SOURCES := $(shell find src -type f -name *.c)
+SOURCES := $(shell find . -type f -name *.c)
 OBJECTS := $(SOURCES:%.c=%.o)
 
 PREFIX = /usr
