@@ -1,0 +1,13 @@
+Name: hello
+Summary: Simple "Hello World"
+Description: Sample package for Mer
+URL: https://wiki.merproject.org/wiki/Building_against_Mer_in_Community_OBS
+Version: 0.1
+Release: 1
+Group: Amusements/Games
+License: GPL
+Configure: "none"
+Sources:
+    - hello-0.1.tar.gz
+Files:
+    - "%{_bindir}/hello"
